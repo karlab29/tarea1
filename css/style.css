@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,400,700,900&display=swap');
+body{
+	background-image: url("file:///D:/AlumnoDG/Downloads/ELBLOGDEOSITO/images/cesped.jpg");
+	font-family: 'Raleway', sans-serif;
+}
+figure{
+	margin-bottom: 20px;
+}
+h1{
+	font-weight: 800;
+	letter-spacing: -3px;
+	font-size: 64px;
+	margin-bottom: 0;
+	padding: 15px;
+}
+h2{
+	font-weight: 200;
+	letter-spacing: -2px;
+	font-size: 64px;
+	/*text-transform: lowercase; para minúsculas */
+	text-transform: uppercase;
+	text-align: center;
+	position: relative;
+	margin-bottom: 100px;
+}
+h2:after{
+	content:" ";
+	background-color: #246323;
+	height: 4px;
+	width: 80px;
+	position: absolute;
+	bottom: -10px;
+	left:50%;
+	margin-left: -40px;
+}
+h3{
+	font-weight: 700;
+	letter-spacing: -1px;
+	font-size: 24px;
+	text-transform: uppercase;/* para mayúsculas */
+}
+h4{
+	font-weight: 600;
+	color: black;
+text-align: center;
+	text-transform: uppercase;
+}
+h5{
+	color: red;
+}
+#main-header{
+	background-color: #ffffff;
+}
+#noticias{
+	background-image: url("file:///D:/AlumnoDG/Downloads/ELBLOGDEOSITO/images/periodicos1.jpg"); 
+		margin: 20px;
+}
+.padded{
+	padding-top: 90px;
+	padding-bottom: 60px;
+}
+#contactenos{
+		background-image: url("file:///D:/AlumnoDG/Downloads/ELBLOGDEOSITO/images/fondo1.jpg");
+		margin: 20px;
+}
+#galeria{
+			background-image:url("file:///D:/AlumnoDG/Downloads/ELBLOGDEOSITO/images/madera.jpg");
+	padding: 50px;
+	margin: 20px;
+}
+#galeria img{
+	margin:20px;
+}
+#galeria video{
+	margin-left:390px;
+	padding: 10px;
+}
+#refugios{
+background-color:slategrey;
+	
+	margin: 20px;
+	color:#ffffff; 	
+}
+#cursos{
+	background-color: #EA9539; 
+}
+#nosotros{
+	background-color: #333333;
+	color:#ffffff;
+		margin: 20px;
+}
+.bg-barra-fondo{
+	background-color: #a96511;
+}
+.navbar-brand img{
+	width: 70px;
+	height: 70px;
+}
+.navbar-brand{
+	position:absolute;
+    top: 25px;
+    right: 35px;
+}
+.main-nav{
+	margin-left: 100px;
+}
+
+.badge-info {
+    position: absolute;
+    top: 0px;
+}
+
+footer{
+background-color: #fff;
+width: 100%;
+height:60px;
+color:#000;
+}
+
+
+@media (max-width: 991px){
+	.navbar-brand{
+		right: 0;
+	}
+}
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}
